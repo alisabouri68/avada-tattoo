@@ -1,0 +1,38 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+:root{
+
+    --x1x1:#000000;
+    --x2x2:#ffffff;
+    --x2x4:#f5b997;
+    --x2x3:#eadac7;
+    --x2x5:#743024;
+    --x2x1:#242424;
+}
+@font-face {
+    font-family: abel;
+    src: url('../fonts/Abel-Regular.ttf');
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+}
+body{
+    font-family: abel;
+    font-size: 100%;
+    overflow-x: hidden;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
